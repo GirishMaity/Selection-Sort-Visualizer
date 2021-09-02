@@ -1,0 +1,84 @@
+.mySlides {
+    display: none;
+}
+  
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("Background.png");
+}
+  
+.head {
+    margin-top: 20px;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(192, 238, 65);
+    border-radius: 19px;
+    font-weight: bolder;
+}
+  
+.data-container {
+    width: 800px;
+    height: 350px;
+    position: relative;
+    margin: 0 auto;
+}
+  
+.bar {
+    width: 35px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(0, 183, 255);
+    transition: 0.2s all ease;
+    color: rgb(255, 255, 255);
+}
+  
+.bar__id {
+    position: absolute;
+    top: -24px;
+    width: 100%;
+    text-align: center;
+    
+}
+.btn1 {
+    padding: 12px;
+    font-weight: bolder;
+    background-color: #79df5f;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    border: white;
+    margin-left: 30vw;
+    margin-top: 4vw;
+    margin-right: 1vw;
+}
+.btn2 {
+    padding: 12px;
+    font-weight: bolder;
+    background-color: #6f459e;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    border: white;
+}
+
+.btn3 {
+    padding: 12px;
+    font-weight: bolder;
+    background-color: #ff0000;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    border: white;
+}
+
+.names {
+    text-align: right;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
